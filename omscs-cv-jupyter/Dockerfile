@@ -12,6 +12,3 @@ RUN mkdir /usr/sandbox/
 
 ENTRYPOINT ["python", "/opt/conda/bin/jupyter-notebook", "--ip=*", "--allow-root"]
 CMD ["--notebook-dir=/usr/sandbox"]
-# --ip=* --allow-root
-# CMD ["notebook" "--ip=*" "--allow-root"]
-# CMD ["jupyter notebook --ip=* --allow-root"]
